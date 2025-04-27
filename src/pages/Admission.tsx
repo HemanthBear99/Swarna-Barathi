@@ -122,15 +122,6 @@ Questions/Comments: ${message || 'N/A'}`;
                     </p>
                   </div>
                 </div>
-                <div className="mt-6">
-                  <a
-                    href="#"
-                    className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white py-3 px-6 rounded-full transition-all duration-200 font-medium shadow-lg hover:shadow-xl"
-                  >
-                    <Download size={18} className="mr-2" />
-                    Download Our Prospectus
-                  </a>
-                </div>
               </div>
 
               {/* Admission Form */}

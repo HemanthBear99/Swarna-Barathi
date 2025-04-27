@@ -78,6 +78,13 @@ const Footer = () => {
                 >
                   7330955923
                 </a>
+                <Phone size={20} />
+                <a
+                  href="tel:+917330955923"
+                  className="hover:text-white transition"
+                >
+                  9063158461
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} />
@@ -97,8 +104,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Swarna Bharathi Play & High School. All
-          rights reserved.
+          &copy; {new Date().getFullYear()} Swarna Bharathi Play & High School.
+          All rights reserved.
         </div>
       </div>
     </footer>

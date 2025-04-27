@@ -45,7 +45,7 @@ const Contact = () => {
     {
       icon: <Phone size={24} className="text-school-600" />,
       title: 'Phone',
-      details: ['7330955923'],
+      details: ['7330955923', '9063158461'],
     },
     {
       icon: <Mail size={24} className="text-school-600" />,
@@ -100,11 +100,29 @@ const Contact = () => {
                     {info.icon}
                   </div>
                   <h3 className="text-xl font-bold mb-3">{info.title}</h3>
-                  {info.details.map((detail, i) => (
-                    <p key={i} className="text-gray-600">
-                      {detail}
-                    </p>
-                  ))}
+                  {info.title === 'Phone' ? (
+                    <div className="flex flex-col items-center">
+                      <div className="flex flex-col items-center justify-center space-y-2">
+                        {info.details.map((detail, i) => (
+                          <div key={i} className="flex items-center">
+                            <a
+                              href={`tel:${detail}`}
+                              className="text-xl font-bold text-school-600 hover:text-school-700 transition-colors duration-200 flex items-center"
+                            >
+                              <Phone size={18} className="mr-2" />
+                              {detail}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    info.details.map((detail, i) => (
+                      <p key={i} className="text-gray-600">
+                        {detail}
+                      </p>
+                    ))
+                  )}
                 </div>
               ))}
             </div>
@@ -220,8 +238,8 @@ const Contact = () => {
                   ></iframe>
                 </div>
                 <p className="mt-4 text-gray-600">
-                  Visit us at Swarna Bharathi Play & High School, located in SCB Nagar
-                  along NH 30, Ramavaram, Telangana 507118. We’re easily
+                  Visit us at Swarna Bharathi Play & High School, located in SCB
+                  Nagar along NH 30, Ramavaram, Telangana 507118. We're easily
                   accessible from the National Highway and open Monday through
                   Saturday until 5:30 PM.
                 </p>
