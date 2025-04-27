@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!-- Graduation cap -->
+  <path d="M100 200 L300 100 L500 200 L300 300 Z" fill="#000080" />
+  
+  <!-- Cap top -->
+  <path d="M100 200 L300 100 L500 200 L300 300 Z" fill="#4169E1" />
+  
+  <!-- Cap tassel -->
+  <path d="M300 300 L300 350" stroke="#FFD700" stroke-width="5" />
+  <circle cx="300" cy="350" r="10" fill="#FFD700" />
+  
+  <!-- Cap button -->
+  <circle cx="300" cy="200" r="15" fill="#FFD700" />
+  
+  <!-- Diploma -->
+  <rect x="350" y="150" width="100" height="150" rx="5" fill="#FFF" />
+  <line x1="370" y1="180" x2="430" y2="180" stroke="#333" stroke-width="2" />
+  <line x1="370" y1="200" x2="430" y2="200" stroke="#333" stroke-width="2" />
+  <line x1="370" y1="220" x2="430" y2="220" stroke="#333" stroke-width="2" />
+  <line x1="370" y1="240" x2="430" y2="240" stroke="#333" stroke-width="2" />
+  <line x1="370" y1="260" x2="430" y2="260" stroke="#333" stroke-width="2" />
+  
+  <!-- Diploma ribbon -->
+  <path d="M400 150 L400 300" stroke="#FFD700" stroke-width="10" />
+  
+  <!-- Text -->
+  <text x="300" y="380" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="#333">GRADUATION</text>
+</svg> 

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!-- Book cover -->
+  <path d="M50 50 L550 50 L550 350 L50 350 Z" fill="#4169E1" />
+  
+  <!-- Book spine -->
+  <rect x="50" y="50" width="30" height="300" fill="#000080" />
+  
+  <!-- Book pages -->
+  <rect x="80" y="50" width="470" height="300" fill="#FFF" />
+  
+  <!-- Book title -->
+  <text x="300" y="150" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#333">LEARNING</text>
+  <text x="300" y="200" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#333">IS FUN!</text>
+  
+  <!-- Book lines -->
+  <line x1="100" y1="250" x2="500" y2="250" stroke="#333" stroke-width="2" />
+  <line x1="100" y1="280" x2="500" y2="280" stroke="#333" stroke-width="2" />
+  <line x1="100" y1="310" x2="500" y2="310" stroke="#333" stroke-width="2" />
+  
+  <!-- Book bookmark -->
+  <path d="M550 50 L580 20 L580 80 L550 50 Z" fill="#FF6347" />
+  
+  <!-- Book smiley face -->
+  <circle cx="300" cy="100" r="20" fill="#333" />
+  <path d="M280 100 Q300 130 320 100" stroke="#333" stroke-width="3" fill="none" />
+</svg> 

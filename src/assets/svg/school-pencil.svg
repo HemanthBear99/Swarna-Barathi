@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <!-- Pencil body -->
+  <rect x="200" y="100" width="400" height="60" rx="10" fill="#FFD700" stroke="#333" stroke-width="5" />
+  
+  <!-- Pencil tip -->
+  <path d="M600 130 L650 100 L600 160 Z" fill="#333" stroke="#333" stroke-width="5" />
+  
+  <!-- Pencil eraser -->
+  <rect x="200" y="100" width="60" height="60" rx="10" fill="#FF69B4" stroke="#333" stroke-width="5" />
+  
+  <!-- Pencil stripes -->
+  <rect x="260" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="300" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="340" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="380" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="420" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="460" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="500" y="100" width="20" height="60" fill="#FF6347" />
+  <rect x="540" y="100" width="20" height="60" fill="#FF6347" />
+  
+  <!-- Pencil text -->
+  <text x="400" y="250" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#333">PENCIL</text>
+  
+  <!-- Pencil shadow -->
+  <ellipse cx="400" cy="180" rx="200" ry="20" fill="#333" opacity="0.2" />
+  
+  <!-- Pencil shavings -->
+  <path d="M620 120 Q650 100 680 120" stroke="#333" stroke-width="5" fill="none" />
+  <path d="M630 130 Q660 110 690 130" stroke="#333" stroke-width="5" fill="none" />
+  <path d="M640 140 Q670 120 700 140" stroke="#333" stroke-width="5" fill="none" />
+  
+  <!-- Pencil paper -->
+  <rect x="100" y="300" width="600" height="400" rx="10" fill="#FFF" stroke="#333" stroke-width="5" />
+  
+  <!-- Pencil lines -->
+  <line x1="150" y1="350" x2="650" y2="350" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="400" x2="650" y2="400" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="450" x2="650" y2="450" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="500" x2="650" y2="500" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="550" x2="650" y2="550" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="600" x2="650" y2="600" stroke="#333" stroke-width="2" />
+  <line x1="150" y1="650" x2="650" y2="650" stroke="#333" stroke-width="2" />
+</svg> 

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <!-- Bell body -->
+  <path d="M400 100 C500 100 600 200 600 300 C600 400 550 450 500 500 L300 500 C250 450 200 400 200 300 C200 200 300 100 400 100" fill="#FFD700" stroke="#8B4513" stroke-width="10" />
+  
+  <!-- Bell top -->
+  <rect x="350" y="50" width="100" height="50" rx="10" fill="#8B4513" />
+  
+  <!-- Bell clapper -->
+  <circle cx="400" cy="550" r="30" fill="#FF6347" />
+  <rect x="395" y="500" width="10" height="50" fill="#8B4513" />
+  
+  <!-- Bell sound waves -->
+  <path d="M200 600 Q400 650 600 600" stroke="#8B4513" stroke-width="5" fill="none" />
+  <path d="M150 650 Q400 700 650 650" stroke="#8B4513" stroke-width="5" fill="none" />
+  <path d="M100 700 Q400 750 700 700" stroke="#8B4513" stroke-width="5" fill="none" />
+  
+  <!-- Bell text -->
+  <text x="400" y="400" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#333">DING DONG!</text>
+  
+  <!-- Bell shine -->
+  <circle cx="300" cy="250" r="20" fill="#FFF" opacity="0.5" />
+  
+  <!-- Bell handle -->
+  <path d="M350 50 Q400 0 450 50" stroke="#8B4513" stroke-width="10" fill="none" />
+</svg> 

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" fill="none">
+  <!-- Bus body -->
+  <rect x="100" y="200" width="600" height="300" rx="20" fill="#FFD700" stroke="#333" stroke-width="10" />
+  
+  <!-- Bus windows -->
+  <rect x="150" y="250" width="80" height="100" rx="10" fill="#87CEEB" stroke="#333" stroke-width="5" />
+  <rect x="270" y="250" width="80" height="100" rx="10" fill="#87CEEB" stroke="#333" stroke-width="5" />
+  <rect x="390" y="250" width="80" height="100" rx="10" fill="#87CEEB" stroke="#333" stroke-width="5" />
+  <rect x="510" y="250" width="80" height="100" rx="10" fill="#87CEEB" stroke="#333" stroke-width="5" />
+  <rect x="630" y="250" width="80" height="100" rx="10" fill="#87CEEB" stroke="#333" stroke-width="5" />
+  
+  <!-- Bus wheels -->
+  <circle cx="250" cy="500" r="50" fill="#333" />
+  <circle cx="550" cy="500" r="50" fill="#333" />
+  <circle cx="250" cy="500" r="30" fill="#666" />
+  <circle cx="550" cy="500" r="30" fill="#666" />
+  
+  <!-- Bus door -->
+  <rect x="150" y="400" width="60" height="100" rx="5" fill="#FF6347" stroke="#333" stroke-width="5" />
+  
+  <!-- Bus headlights -->
+  <circle cx="700" cy="300" r="20" fill="#FFF" />
+  <circle cx="700" cy="350" r="20" fill="#FFF" />
+  
+  <!-- Bus text -->
+  <text x="400" y="150" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#333">SCHOOL BUS</text>
+  
+  <!-- Bus road -->
+  <rect x="50" y="550" width="700" height="20" fill="#333" />
+  <rect x="50" y="570" width="700" height="5" fill="#666" />
+  
+  <!-- Bus clouds -->
+  <circle cx="200" cy="100" r="30" fill="#FFF" />
+  <circle cx="250" cy="100" r="40" fill="#FFF" />
+  <circle cx="300" cy="100" r="30" fill="#FFF" />
+  
+  <circle cx="500" cy="150" r="30" fill="#FFF" />
+  <circle cx="550" cy="150" r="40" fill="#FFF" />
+  <circle cx="600" cy="150" r="30" fill="#FFF" />
+  
+  <!-- Bus sun -->
+  <circle cx="700" cy="100" r="50" fill="#FFD700" />
+  <circle cx="700" cy="100" r="40" fill="#FFA500" />
+</svg> 
