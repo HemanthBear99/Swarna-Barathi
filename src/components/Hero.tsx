@@ -105,7 +105,7 @@ const Hero = () => {
                 </span>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/19L7T22P1H/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center child-friendly-card p-2 touch-target hover:bg-gray-50 transition-colors duration-300"
