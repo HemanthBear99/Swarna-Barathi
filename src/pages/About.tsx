@@ -514,8 +514,8 @@ const About = () => {
               Our Faculty
             </h2>
             <p className="text-center text-xs sm:text-sm md:text-base text-gray-700 max-w-3xl mx-auto mb-6 sm:mb-8 px-2 sm:px-0">
-              Our team of experienced educators is dedicated to providing
-              quality education and guidance to our students.
+              Our team of skilled educators is committed to delivering
+              high-quality education and personalized guidance to every student
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               <div className="child-friendly-card p-4 sm:p-6 text-center fun-border">

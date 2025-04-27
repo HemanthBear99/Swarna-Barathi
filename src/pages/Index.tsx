@@ -146,15 +146,15 @@ const courses = [
   },
   {
     icon: <Code size={36} className="text-blue-500" />,
-    title: 'Tech Adventures! 💻',
+    title: 'Computer Classes 💻',
     description: 'Explore the world of computers and robots in a fun way!',
     link: '/courses',
     color: 'bg-accent/10',
   },
   {
     icon: <Microscope size={36} className="text-blue-500" />,
-    title: 'Science Fun! 🔬',
-    description: 'Do cool experiments and discover amazing science facts!',
+    title: 'Lab Activities 🔬',
+    description: 'Conducting exciting experiments in science and biology labs!',
     link: '/courses',
     color: 'bg-primary/10',
   },
