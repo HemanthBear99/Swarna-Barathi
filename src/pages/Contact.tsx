@@ -1,7 +1,15 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { motion } from 'framer-motion';
-import { Clock, Heart, Mail, MapPin, Phone, Sparkles, Star } from 'lucide-react';
+import {
+  Clock,
+  Heart,
+  Mail,
+  MapPin,
+  Phone,
+  Sparkles,
+  Star,
+} from 'lucide-react';
 import { useState } from 'react';
 
 const Contact = () => {
@@ -47,7 +55,7 @@ Message: ${message}`;
     {
       icon: <Phone size={24} className="text-pink-500" />,
       title: 'Phone',
-      details: ['7330955923'],
+      details: ['7330955923', '9063158461'],
     },
     {
       icon: <Mail size={24} className="text-purple-500" />,
@@ -83,19 +91,19 @@ Message: ${message}`;
                 <motion.div
                   key={i}
                   className="absolute"
-                  initial={{ 
+                  initial={{
                     x: Math.random() * window.innerWidth,
                     y: Math.random() * window.innerHeight,
-                    scale: 0
+                    scale: 0,
                   }}
-                  animate={{ 
+                  animate={{
                     scale: [0, 1, 0],
-                    rotate: [0, 360]
+                    rotate: [0, 360],
                   }}
                   transition={{
                     duration: Math.random() * 3 + 2,
                     repeat: Infinity,
-                    delay: Math.random() * 2
+                    delay: Math.random() * 2,
                   }}
                 >
                   <Star className="w-4 h-4 text-yellow-400" />
@@ -113,7 +121,8 @@ Message: ${message}`;
                 Let's Connect! 🌟
               </h1>
               <p className="text-xl text-gray-600">
-                We'd love to hear from you! Send us a message and we'll get back to you soon.
+                We'd love to hear from you! Send us a message and we'll get back
+                to you soon.
               </p>
             </motion.div>
           </div>
@@ -134,12 +143,29 @@ Message: ${message}`;
                   <div className="inline-block p-4 rounded-full bg-gradient-to-r from-pink-100 to-purple-100 mb-4">
                     {info.icon}
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-800">{info.title}</h3>
-                  {info.details.map((detail, i) => (
-                    <p key={i} className="text-gray-600">
-                      {detail}
-                    </p>
-                  ))}
+                  <h3 className="text-xl font-bold mb-3 text-gray-800">
+                    {info.title}
+                  </h3>
+                  {info.title === 'Phone' ? (
+                    <div className="flex flex-col items-center space-y-2">
+                      {info.details.map((detail, i) => (
+                        <a
+                          key={i}
+                          href={`tel:${detail}`}
+                          className="flex items-center text-lg font-medium text-pink-600 hover:text-pink-700 transition-colors duration-200"
+                        >
+                          <Phone size={18} className="mr-2" />
+                          {detail}
+                        </a>
+                      ))}
+                    </div>
+                  ) : (
+                    info.details.map((detail, i) => (
+                      <p key={i} className="text-gray-600">
+                        {detail}
+                      </p>
+                    ))
+                  )}
                 </motion.div>
               ))}
             </div>
